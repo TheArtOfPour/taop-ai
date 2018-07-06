@@ -185,7 +185,7 @@ def fit_model(lr=0.001, dropout=0.55, reg=0.0004, yw=45, hw=75, fw=185, final=27
     return model
 
 
-# model = fit_model()
+fitted_model = fit_model()
 
 for learning_rate in lrs:
     print("\nLEARNING RATE: " + str(learning_rate))
@@ -209,8 +209,8 @@ for final_width in final_widths:
     print("\nFINAL WIDTH: " + str(final_width))
     fit_model(final=final_width)
 
-# print("saving")
-# model.save("models/regal.h5")
-# model.save_weights("models/regal_weights.h5")
+print("saving")
+fitted_model.save("models/tap.h5")
+fitted_model.save_weights("models/tap_weights.h5")
 
 print("complete")

@@ -1,6 +1,7 @@
 import pickle
 import sqlite3
 
+# @todo : add training db from taop-data
 conn = sqlite3.connect('../db/training.db')
 c = conn.cursor()
 
@@ -9,6 +10,7 @@ c = conn.cursor()
 max_fermentables = 5
 max_hops = 9
 training_data_percentage = 100
+
 
 def get_recipe():
     # placeholder for styleID label in first row/col

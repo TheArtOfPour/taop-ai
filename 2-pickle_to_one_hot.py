@@ -2,8 +2,11 @@ import keras
 import numpy
 import pickle
 import sqlite3
+
+# @todo : add training.db from taop-data
 conn = sqlite3.connect('../db/training.db')
 c = conn.cursor()
+
 # fix random seed for reproducibility
 numpy.random.seed(7)
 

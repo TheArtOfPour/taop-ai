@@ -1,9 +1,10 @@
 from keras.models import Model
-from keras.layers import Dense, Flatten, Input, Add, Concatenate, Dropout, regularizers
+from keras.layers import Dense, Flatten, Input, Concatenate, Dropout
 from keras.optimizers import SGD
 import keras
 import numpy
 import pickle
+
 # fix random seed for reproducibility
 numpy.random.seed(7)
 
@@ -89,7 +90,7 @@ model.fit(
 )
 
 print("saving")
-model.save("models/regal.h5")
-model.save_weights("models/regal_weights.h5")
+model.save("models/tap.h5")
+model.save_weights("models/tap_weights.h5")
 
 print("complete")
