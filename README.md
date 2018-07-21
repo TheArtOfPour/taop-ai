@@ -9,10 +9,11 @@ Case in point, this README.
 
 Cheers!
 
-`python 1-sql_to_pickle.py`
+- `python 1-sql_to_pickle.py` to query and convert data to pickle format
 
-`python 2-pickle_to_one_hot.py`
+- `python 2-pickle_to_one_hot.py` to convert data to one-hot format
 
-`python 3-train_model.py`
+- `python 3-train_model.py` to train the TF model
 
-`python test.py` or `python test_individual.py` or `python test_specific.py`
+- `python test.py` | `python test_individual.py` | `python test_specific.py`
+for specific testing runs
