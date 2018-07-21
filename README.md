@@ -1,5 +1,5 @@
 # taop-ai
-TAP ML code
+TF/Keras ML code for https://theartofpour.com
 
 Thank you to everyone who attended my talk at this year's HomebrewCon.
 
