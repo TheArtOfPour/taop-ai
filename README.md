@@ -9,6 +9,8 @@ Case in point, this README.
 
 Cheers!
 
+*The trained models can be found as .h5 files in the taop-api /models*
+
 - `python 1-sql_to_pickle.py` to query and convert data to pickle format
 
 - `python 2-pickle_to_one_hot.py` to convert data to one-hot format
