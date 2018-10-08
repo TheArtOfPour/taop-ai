@@ -20,4 +20,5 @@ Cheers!
 - `python test.py` | `python test_individual.py` | `python test_specific.py`
 for specific testing runs
 
-@todo: Dynamic input dimensions
+## todo
+* Dynamic input dimensions
