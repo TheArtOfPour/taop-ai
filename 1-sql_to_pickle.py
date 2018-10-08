@@ -88,7 +88,7 @@ for (recipeID, styleID) in results:
     hops_data.append(hop_data)
     fermentables_data.append(fermentable_data)
 
-print("picking ... ", end="")
+print("pickling ... ", end="")
 # divide into training and testing sets
 total = len(recipes)
 split = int((total * training_data_percentage) / 100)
