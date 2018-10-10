@@ -22,3 +22,4 @@ for specific testing runs
 
 ## todo
 * Dynamic input dimensions
+* Compile TF to match server hw
